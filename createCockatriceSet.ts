@@ -41,6 +41,8 @@ const xmlJson: stringifyable = {
           cmc: x.cost,
           manacost: x.cost,
           "format-core": x.legalities.core,
+          'price': x.prices.usd ? `\$${x.prices.usd}` : null,
+          'price-foil': x.prices.usd_foil ? `\$${x.prices.usd_foil}` : null,
         },
         text: x.text,
       })),
