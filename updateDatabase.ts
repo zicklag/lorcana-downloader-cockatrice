@@ -15,6 +15,8 @@ if (import.meta.main) {
     (await (await fetch("https://api.lorcast.com/v0/sets")).json()) as ApiSets
   ).results;
 
+  console.log(`Fetched ${sets.length} sets.`);
+
   await pause();
 
   const cards: { [set_code: string]: Card[] } = {};
@@ -25,6 +27,8 @@ if (import.meta.main) {
     ).json();
 
     cards[set.code] = c;
+
+    console.log(`Fetched set ${set.name} released at ${set.released_at}`)
 
     await pause();
   }

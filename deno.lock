@@ -25,7 +25,10 @@
     }
   },
   "remote": {
+    "https://deno.land/x/xml@6.0.4/_types.ts": "a7435282a7a775d80f8528aeec49996192c47fef8a8f616a1b216792424dc125",
+    "https://deno.land/x/xml@6.0.4/parse.ts": "1302c75d8fd40df39310bb8ae6716302f0b77c61c607437dc023d3d792a0df54",
     "https://deno.land/x/xml@6.0.4/stringify.ts": "0e2f79798d413c5386bf5de90bbe9901f99951ceae484050a8ef89e2b4da9dd0",
+    "https://deno.land/x/xml@6.0.4/wasm_xml_parser/wasm_xml_parser.js": "0804d738e6d94284b043546260b547bb4731fbfd3b3851139740e863dabf25bd",
     "https://gist.githubusercontent.com/mayankchoubey/8c3a256a22f2e75d6329ad4da0e53357/raw/364546b0eceb8b69f42b55208c590e39adb39ee4/deno_progress_indicator.ts": "7991aa3e2819f75f13b98b778750490a711cb25738c8387c9010b38266e0f7b2"
   },
   "workspace": {

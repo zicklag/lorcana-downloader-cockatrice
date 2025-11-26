@@ -17,7 +17,7 @@ await Deno.mkdir("./images", { recursive: true });
 
 await Promise.all(
   allCards.map(async (card) => {
-    const name = cardName(card).replace(/[\?\"\']/, '');
+    const name = cardName(card).replaceAll(/[\?\"\'\!]/g, '');
     const path = `./images/${name}.avif`;
     try {
       const file = await Deno.open(path, { write: true, createNew: true });
