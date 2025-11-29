@@ -1,5 +1,6 @@
 {
   "imports": {
-    "@std/async": "jsr:@std/async"
+    "@std/async": "jsr:@std/async",
+    "minizinc": "npm:minizinc@^4.4.4"
   }
 }
